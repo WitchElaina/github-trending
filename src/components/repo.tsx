@@ -14,7 +14,7 @@ import { Repository } from '@/lib/api';
 
 export const Repo: React.FC<{ repo: Repository }> = ({ repo }) => {
   return (
-    <Card className="flex-row m-5">
+    <Card className="flex-row m-5 font-notosans">
       <CardHeader className="flex space-y-3 p-6 pb-3">
         <CardTitle>
           {repo.author} / {repo.name}
